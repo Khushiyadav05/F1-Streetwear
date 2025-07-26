@@ -1,0 +1,192 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: white;
+  margin-left: 1em;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 3em;
+  background: url('../assets/f1-bg.jpg') no-repeat center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.view-all-btn {
+  background: red;
+  padding: 0.8em 1.5em;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.categories {
+  padding: 2em;
+  text-align: center;
+}
+
+.category-list {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin-top: 1em;
+}
+
+.category-list a,
+.category-list span {
+  background: #eee;
+  padding: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.category-products {
+  padding: 2em;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 1em;
+  border-radius: 8px;
+  background: #f9f9f9;
+  width: 200px;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.product-card p {
+  margin-top: 0.5em;
+  font-weight: bold;
+}
+
+.product-search {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.product-search input {
+  padding: 0.8em;
+  width: 50%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.cart {
+  padding: 2em;
+  max-width: 600px;
+  margin: auto;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1em;
+}
+
+.cart-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  margin-right: 1em;
+}
+
+.item-details h3 {
+  margin: 0;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin-top: 0.5em;
+}
+
+.quantity-controls button {
+  padding: 0.5em 1em;
+  font-size: 16px;
+}
+
+.subtotal {
+  text-align: right;
+  margin-top: 2em;
+}
+
+.checkout-btn {
+  background-color: red;
+  color: white;
+  padding: 0.8em 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1em;
+}
+.auth-form {
+  max-width: 400px;
+  margin: 3em auto;
+  padding: 2em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 0.8em;
+  margin: 0.5em 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.auth-form button {
+  padding: 0.8em 1.5em;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.auth-form a {
+  color: red;
+  text-decoration: none;
+}
+

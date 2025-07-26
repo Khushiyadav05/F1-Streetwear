@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Page - F1 Streetwear</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>F1 Streetwear</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <section class="product-search">
+    <h2>Search Products</h2>
+    <input type="text" id="searchInput" placeholder="Search by name..." />
+  </section>
+
+  <section class="product-grid" id="productGrid">
+    <!-- Products to be filtered -->
+    <div class="product-card" data-name="F1 Black Tee">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.PDpHg746JbTiSet4aDbK7wAAAA?pid=Api&P=0&h=180" alt="F1 Black Tee" />
+      <p>F1 Black Tee</p>
+    </div>
+    <div class="product-card" data-name="Redline Tee">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.oZ70r4yaIWwPxK69VVDpewHaHa?pid=Api&P=0&h=180" alt="Redline Tee" />
+      <p>Redline Tee</p>
+    </div>
+    <div class="product-card" data-name="White Speed Tee">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.JVPh3RsgEwqxuyR4DmDnNgHaHa?pid=Api&P=0&h=180" alt="White Speed Tee" />
+      <p>White Speed Tee</p>
+    </div>
+  </section>
+
+  <p id="noResults" style="text-align: center; display: none; color: red; font-weight: bold;">
+    No products found.
+  </p>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
